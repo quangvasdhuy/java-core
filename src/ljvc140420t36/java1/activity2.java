@@ -9,11 +9,10 @@ public class activity2 {
         String s2 = "PlusPlus Academy";
         String s = s1;
         System.out.println("Where are they learning Javacore?");
-         s = scanner.nextLine();
-        if (s.equals(s2)){
+        s = scanner.nextLine();
+        if (s.equals(s2)) {
             System.out.println("Welcome to Javacore class");
-        }
-        else{
+        } else {
             System.out.println("Input again");
         }
     }

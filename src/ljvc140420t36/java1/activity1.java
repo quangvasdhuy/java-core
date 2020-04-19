@@ -17,11 +17,11 @@ public class activity1 {
         int thuong = a / b;
         int du = a % b;
 
-        System.out.println("a+b="+tong);
-        System.out.println("a-b="+hieu);
-        System.out.println("a*b="+tich);
-        System.out.println("a/b="+thuong);
-        System.out.println("a%b="+du);
+        System.out.println("a+b=" + tong);
+        System.out.println("a-b=" + hieu);
+        System.out.println("a*b=" + tich);
+        System.out.println("a/b=" + thuong);
+        System.out.println("a%b=" + du);
 
     }
 }

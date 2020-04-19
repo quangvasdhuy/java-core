@@ -7,8 +7,8 @@ public class activty3 {
         Scanner scanner = new Scanner(System.in);
         System.out.println("Input a number");
         int n = scanner.nextInt();
-       for ( int i=1 ; i<=10 ; i++ ){
-           System.out.printf("\n%d * %d = %d",n,i,i*n);
-       }
+        for (int i = 1; i <= 10; i++) {
+            System.out.printf("\n%d * %d = %d", n, i, i * n);
+        }
     }
 }

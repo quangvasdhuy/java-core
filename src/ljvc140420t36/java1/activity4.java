@@ -4,18 +4,9 @@ import java.util.Scanner;
 
 public class activity4 {
     public static void main(String[] args) {
-        System.out.println(tong());
-    }
-    public static int tong(){
-        int temp = 0;int f = 0;
         Scanner scanner = new Scanner(System.in);
-        System.out.println("Input a number");
+        System.out.println("Input a number: ");
         int n = scanner.nextInt();
-        for(int i=0 ; i=3 ;i++){
-            f = n * 10 +n;
-            temp +=f;
-        }
-        return temp;
-
+        System.out.printf("%d + %d +%d = %d", n, n * 11, n * 111, n + n * 11 + n * 111);
     }
 }
