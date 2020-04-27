@@ -4,15 +4,25 @@ import java.util.Scanner;
 
 public class activity5 {
     public static void main(String[] args) {
-        System.out.println("Enter a string: ");
         Scanner scanner = new Scanner(System.in);
+        System.out.println("Enter a string: ");
         String s = scanner.nextLine();
-        int a[]=new int[256];
-        int len = s.length();
-        for(int i=0;i<len;i++){
-            a[s.charAt(i)]++;
+        int[] Array = new int[256];
+        for (int i = 0; i < s.length(); i++) {
+            Array[s.charAt(i)]++;
         }
-        int max = -1;
 
+        int max = -1;
+        char result = ' ';
+        for (int i = 0; i < s.length(); i++) {
+            if (max < Array[s.charAt(i)]) {
+                max = Array[s.charAt(i)];
+                result = s.charAt(i);
+            }
+
+        }
+
+        System.out.print("Maximum occurring character:" + result);
+        //   System.out.printf("(%d)",index);
     }
 }

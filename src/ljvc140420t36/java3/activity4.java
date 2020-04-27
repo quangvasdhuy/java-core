@@ -10,9 +10,9 @@ public class activity4 {
         String s = scanner.nextLine();
         String reverse = "";
 
-        for (int i=s.length()-1 ; i>=0 ; i--) {
+        for (int i = s.length() - 1; i >= 0; i--) {
             reverse = reverse + s.charAt(i);
         }
-        System.out.println("Printf reverse: "+reverse);
+        System.out.println("Printf reverse: " + reverse);
     }
 }
